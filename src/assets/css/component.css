@@ -5,3 +5,28 @@
 .down{
     color: #53274E ;
 }
+
+.banner img{
+    max-width: 1800px;
+}
+
+.social
+{
+    padding: 10px;
+    color: #A046B4;
+}
+.social:hover{
+    color: white;
+}
+#footer{
+    background-color: #53274E ;
+}
+#footnote
+{
+    color: #A046B4;
+    height: 25pt;
+}
+
+#footnote:hover{
+    color:white;
+}

@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import logo from '../assets/img/logo.png';
+import banner from '../assets/img/banner.jpg'
 import '../assets/css/component.css';
-import { Navbar, Nav, NavItem, NavLink, Collapse, NavbarBrand, NavbarToggler, Container } from 'reactstrap';
+import { Navbar, Nav, NavItem, NavLink, Collapse, NavbarBrand, NavbarToggler } from 'reactstrap';
 import { CaretRightFill } from 'react-bootstrap-icons'
 import anime from 'animejs';
 
@@ -49,9 +50,9 @@ function Banner(){
                 </Collapse>
 
             </Navbar>
-            <Container className="banner">
-                <img src={logo} width='1200px' alt='IET On Campus'/>
-            </Container>
+            <div className="d-flex justify-content-center" fluid={true}>
+                <img src={banner} alt='IET On Campus'/>
+            </div>
         </div>
     )
 }
