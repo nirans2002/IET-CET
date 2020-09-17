@@ -30,3 +30,32 @@
 #footnote:hover{
     color:white;
 }
+
+#tabloid{
+    min-height: 100px;
+}
+
+#tabloid #heading{
+    color: white;
+    background-color: #A046B4;
+}
+
+.row-header p{
+    font-size: 35pt;
+}
+
+.container{
+    margin: 10px;
+}
+#crew{
+    padding: 50px;
+}
+
+#crew div img{
+    border-radius: 25px;
+}
+
+#crew div{
+    text-align: center;
+    padding: 5px;
+}

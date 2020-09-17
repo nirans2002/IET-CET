@@ -41,7 +41,10 @@ function Banner(){
                             <NavLink className="navlink" href="#">Home</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink className="navlink" href="#">Organisation</NavLink>
+                            <NavLink className="navlink" href="#organisation">The Organisation</NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink className="navlink" href="#team">The Team</NavLink>
                         </NavItem>
                         <NavItem>
                             <NavLink className="navlink" href="#">About Us</NavLink>
