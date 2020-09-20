@@ -2,11 +2,12 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faGoogle, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { Container} from 'reactstrap';
-import '../assets/css/component.css'
+import '../assets/css/component.css';
 
 function Footer(){
 
     return(
+    <div>
         <Container fluid="true" id="footer">
             <div className="d-flex justify-content-center">
                 <a className="social" href="https://www.facebook.com/theietcet/">
@@ -29,6 +30,7 @@ function Footer(){
                 <p>Developed by Sheen Xavier A</p>
             </div>
         </Container>
+    </div>
     )
 }
 

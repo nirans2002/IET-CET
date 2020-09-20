@@ -1,12 +1,22 @@
 .navlink{
     color: #53274E !important;
+    text-decoration: inherit !important;
 }
 
 .down{
     color: #53274E ;
 }
 
-.banner img{
+#page-container{
+    min-height: 100vh;
+    position: relative;
+}
+
+#page-content{
+    padding-bottom: 200px;
+}
+
+#banner img{
     max-width: 1800px;
 }
 
@@ -20,6 +30,9 @@
 }
 #footer{
     background-color: #53274E ;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
 }
 #footnote
 {
@@ -40,12 +53,15 @@
     background-color: #A046B4;
 }
 
+.row-header{
+    text-align: center;
+}
 .row-header p{
     font-size: 35pt;
 }
 
 .container{
-    margin: 10px;
+    margin:10px 0px;
 }
 #crew{
     padding: 50px;
@@ -53,9 +69,25 @@
 
 #crew div img{
     border-radius: 25px;
+    max-width: 200px;
 }
 
 #crew div{
     text-align: center;
     padding: 5px;
 }
+
+#organisation, #team, #event{
+    justify-content: center;
+    display: grid;
+    position: relative;
+}
+
+#event .container{
+    min-height: 500px;
+}
+
+#event img{
+    max-width: 300px;
+}
+
