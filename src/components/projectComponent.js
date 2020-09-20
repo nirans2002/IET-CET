@@ -1,16 +1,14 @@
 import React from 'react';
+import { GearWideConnected } from 'react-bootstrap-icons';
 import '../assets/css/component.css';
 
-function Event(){
+function Projects(){
     return(
         <div id="event">
             <div className="container">
                 <div className="row row-header align-items-center">
-                    <div className="col" id="event-E">
-                        <p>E</p>
-                    </div>
-                    <div className="col" id="event-vent">
-                        <p>vents</p>
+                    <div className="col">
+                        <p>Pr<GearWideConnected id="gear"/>jects</p>
                     </div>
                 </div>
             </div>
@@ -18,4 +16,4 @@ function Event(){
     )
 }
 
-export default Event;
+export default Projects;

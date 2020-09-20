@@ -39,19 +39,28 @@ function Navigation(){
                     <Nav className='ml-auto' navbar>
                         <NavItem>
                             <NavLink>
-                                <Link to='/' className="navlink">Home</Link></NavLink>
+                                <Link to='/' className="navlink">Home</Link>
+                            </NavLink>
                         </NavItem>
                         <NavItem>
                             <NavLink>
-                                <Link to='/event' className="navlink">Events</Link></NavLink>
+                                <Link to='/events' className="navlink">Events</Link>
+                            </NavLink>
                         </NavItem>
                         <NavItem>
                             <NavLink>
-                                <Link to='/team' className="navlink">The Team</Link></NavLink>
+                                <Link to='/projects' className="navlink">Projects</Link>
+                            </NavLink>
                         </NavItem>
                         <NavItem>
                             <NavLink>
-                                <Link to='/aboutus' className="navlink">About Us</Link></NavLink>
+                                <Link to='/team' className="navlink">The Team</Link>
+                            </NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink>
+                                <Link to='/aboutus' className="navlink">About Us</Link>
+                            </NavLink>
                         </NavItem>
                     </Nav>
                 </Collapse>

@@ -91,3 +91,22 @@
     max-width: 300px;
 }
 
+#event-E{
+    background-image: url(../img/calendar.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#event-vent{
+    padding: 2px;
+}
+@keyframes rotategear{
+    from{
+        rotate: 0deg;
+    }
+    to{
+        rotate: 360deg;
+    }
+}
+#gear{
+    animation: rotategear 2s linear infinite forwards alternate;
+}
