@@ -77,14 +77,14 @@
     padding: 5px;
 }
 
-#organisation, #team, #event{
+#organisation, #team{
     justify-content: center;
     display: grid;
     position: relative;
 }
 
 #event .container{
-    min-height: 500px;
+    min-height: 100px;
 }
 
 #event img{
@@ -109,4 +109,16 @@
 }
 #gear{
     animation: rotategear 2s linear infinite forwards alternate;
+}
+
+#event-heading{
+    padding: 10px 0px;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    display: grid;
+}
+
+#event-content{
+    padding: 10px 10px;
 }
