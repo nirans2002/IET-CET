@@ -3,7 +3,7 @@ import '../assets/css/component.css';
 
 function Projects(){
     return(
-        <div id="event">
+        <div id="project">
             <div className="container">
                 <div className="row row-header align-items-center">
                     <div className="col">
