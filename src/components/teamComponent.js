@@ -4,6 +4,7 @@ import '../assets/css/component.css';
 
 function Team()
 {
+    const img = 'profile.jpg';
     return(
         <div id="team">
             <div className="container">
@@ -20,7 +21,7 @@ function Team()
                 <div className="row align-items-center justify-content-center">
                     <div className="col-md-3 col-sm-8" id="crew">
                         <div className="row justify-content-center">
-                            <img src={profile} alt="eren-yeager"/>
+                            <img src={require(`../assets/img/${img}`)} alt="eren-yeager"/>
                         </div>
                         <div className="row">
                             <div className="col">

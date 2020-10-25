@@ -30,6 +30,9 @@
     margin:10px 0px;
 }
 
+#menuCollapse{
+    outline: none;
+}
 
 /*-------------------
     Events
@@ -83,6 +86,7 @@
 
 #event-img-container img{
     max-width: 300px;
+
 }
 
 #event-info-heading{
@@ -91,6 +95,11 @@
     border: 2px solid transparent;
     border-radius: 10px;
     padding-top: 5px;
+}
+
+#event-subheading
+{
+    text-align: center;
 }
 
 #event-info-section{
@@ -104,6 +113,17 @@
     padding: 10px 0px;
 }
 
+#sliderControls{
+    border: none;
+    background-color: #FFFFFF;
+    color: #53274E;
+    opacity: 0.5;
+    outline: none;
+}
+
+#sliderControls:hover{
+    opacity: 1;
+}
 
 /*-------------------
     Projects
