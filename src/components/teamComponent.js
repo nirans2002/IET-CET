@@ -1,10 +1,30 @@
 import React from 'react';
-import profile from '../assets/img/profile.jpg';
 import '../assets/css/component.css';
+import {members} from '../assets/js/team';
+
+function Member({profile})
+{
+    return(
+        <div className="col-md-3 col-sm-8" id="crew">
+            <div className="row justify-content-center">
+                <img src={require(`../assets/img/${profile.img}`)} alt="eren-yeager"/>
+            </div>
+            <div className="row">
+                <div className="col">
+                    <h5>{profile.name}</h5>
+                    <h6>{profile.position}</h6>
+                </div>
+            </div>
+        </div>
+    )
+}
 
 function Team()
 {
-    const img = 'profile.jpg';
+    const memberList = members.map((member) => (
+        <Member profile={member} />
+    ));
+
     return(
         <div id="team">
             <div className="container">
@@ -19,130 +39,7 @@ function Team()
                     </svg>
                 </div>
                 <div className="row align-items-center justify-content-center">
-                    <div className="col-md-3 col-sm-8" id="crew">
-                        <div className="row justify-content-center">
-                            <img src={require(`../assets/img/${img}`)} alt="eren-yeager"/>
-                        </div>
-                        <div className="row">
-                            <div className="col">
-                                <h5>Eren Yeager</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-3 col-sm-8" id="crew">
-                        <div className="row justify-content-center">
-                            <img src={profile} alt="eren-yeager"/>
-                        </div>
-                        <div className="row">
-                            <div className="col">
-                                <h5>Eren Yeager</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-3 col-sm-8" id="crew">
-                        <div className="row justify-content-center">
-                            <img src={profile} alt="eren-yeager"/>
-                        </div>
-                        <div className="row">
-                            <div className="col">
-                                <h5>Eren Yeager</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-3 col-sm-8" id="crew">
-                        <div className="row justify-content-center">
-                            <img src={profile} alt="eren-yeager"/>
-                        </div>
-                        <div className="row">
-                            <div className="col">
-                                <h5>Eren Yeager</h5>
-                            </div>
-                        </div>
-                    </div>      
-                </div>
-                <div className="row align-items-center">
-                    <div className="col-md-3 col-sm-8" id="crew">
-                        <div className="row justify-content-center">
-                            <img src={profile} alt="eren-yeager"/>
-                        </div>
-                        <div className="row">
-                            <div className="col">
-                                <h5>Eren Yeager</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-3 col-sm-8" id="crew">
-                        <div className="row justify-content-center">
-                            <img src={profile} alt="eren-yeager"/>
-                        </div>
-                        <div className="row">
-                            <div className="col">
-                                <h5>Eren Yeager</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-3 col-sm-8" id="crew">
-                        <div className="row justify-content-center">
-                            <img src={profile} alt="eren-yeager"/>
-                        </div>
-                        <div className="row">
-                            <div className="col">
-                                <h5>Eren Yeager</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-3 col-sm-8" id="crew">
-                        <div className="row justify-content-center">
-                            <img src={profile} alt="eren-yeager"/>
-                        </div>
-                        <div className="row">
-                            <div className="col">
-                                <h5>Eren Yeager</h5>
-                            </div>
-                        </div>
-                    </div>      
-                </div>
-                <div className="row align-items-center">
-                    <div className="col-md-3 col-sm-8" id="crew">
-                        <div className="row justify-content-center">
-                            <img src={profile} alt="eren-yeager"/>
-                        </div>
-                        <div className="row">
-                            <div className="col">
-                                <h5>Eren Yeager</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-3 col-sm-8" id="crew">
-                        <div className="row justify-content-center">
-                            <img src={profile} alt="eren-yeager"/>
-                        </div>
-                        <div className="row">
-                            <div className="col">
-                                <h5>Eren Yeager</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-3 col-sm-8" id="crew">
-                        <div className="row justify-content-center">
-                            <img src={profile} alt="eren-yeager"/>
-                        </div>
-                        <div className="row">
-                            <div className="col">
-                                <h5>Eren Yeager</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-3 col-sm-8" id="crew">
-                        <div className="row justify-content-center">
-                            <img src={profile} alt="eren-yeager"/>
-                        </div>
-                        <div className="row">
-                            <div className="col">
-                                <h5>Eren Yeager</h5>
-                            </div>
-                        </div>
-                    </div>      
+                    {memberList}                         
                 </div>
             </div>
         </div>
