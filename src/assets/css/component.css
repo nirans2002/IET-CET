@@ -1,7 +1,6 @@
 /*-------------------
     General Page 
  -------------------*/
-
 #page-container{
     min-height: 100vh;
     max-width: 100vw !important;
@@ -162,7 +161,9 @@ pre{
 
 #crew div img{
     border-radius: 25px;
-    max-width: 200px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
 }
 
 #crew div{

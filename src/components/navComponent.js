@@ -27,7 +27,7 @@ function Navigation(){
     }
     return(
         <div id='nav'>
-            <Navbar expand='md' color='light' >
+            <Navbar expand='md' color='light'>
                 <NavbarBrand>
                     <img src={logo} width='200px' alt='IET On Campus'/>
                 </NavbarBrand>

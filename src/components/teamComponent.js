@@ -1,13 +1,13 @@
 import React from 'react';
 import '../assets/css/component.css';
-import {members} from '../assets/js/team';
+import {members, witteam} from '../assets/js/team';
 
 function Member({profile})
 {
     return(
-        <div className="col-md-3 col-sm-8" id="crew">
+        <div className="col-md-4 col-lg-3 col-sm-8" id="crew">
             <div className="row justify-content-center">
-                <img src={require(`../assets/img/${profile.img}`)} alt="eren-yeager"/>
+                <img src={require(`../assets/img/team/${profile.img}`)} alt="eren-yeager"/>
             </div>
             <div className="row">
                 <div className="col">
@@ -24,7 +24,9 @@ function Team()
     const memberList = members.map((member) => (
         <Member profile={member} />
     ));
-
+    const witList = witteam.map((member) => (
+        <Member profile={member} />
+    ));
     return(
         <div id="team">
             <div className="container">
@@ -40,6 +42,12 @@ function Team()
                 </div>
                 <div className="row align-items-center justify-content-center">
                     {memberList}                         
+                </div>
+                <div className="row align-items-center justify-content-center">
+                    <h2>Women In Technology</h2>                      
+                </div>
+                <div className="row align-items-center justify-content-center">
+                    {witList}                         
                 </div>
             </div>
         </div>
