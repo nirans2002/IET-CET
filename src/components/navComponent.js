@@ -48,11 +48,13 @@ function Navigation(){
                                 <Link to='/events' className="navlink">Events</Link>
                             </NavLink>
                         </NavItem>
+                        {/*
                         <NavItem>
                             <NavLink>
                                 <Link to='/projects' className="navlink">Projects</Link>
                             </NavLink>
                         </NavItem>
+                        */}
                         <NavItem>
                             <NavLink>
                                 <Link to='/team' className="navlink">The Team</Link>

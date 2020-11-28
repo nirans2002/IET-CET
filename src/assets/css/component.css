@@ -13,7 +13,7 @@ pre{
     font-size: 16px !important;
     white-space: pre-wrap;
 }
-#organisation, #team, #event, #project{
+#banner, #organisation, #team, #event, #project{
     justify-content: center;
     display: grid;
     position: relative;
@@ -38,6 +38,55 @@ pre{
     outline: none;
 }
 
+/*-------------------
+    Banner
+-------------------*/
+#banner{
+    height: calc(100vh - 152px);
+    width: 100vw;
+    background: linear-gradient(to right, red, blue);
+    position: absolute;
+}
+
+#banner-heading p{
+    color: white;
+    font-size: 100pt;
+}
+
+#banner-heading{
+    width: 100%;
+}
+
+@media(max-width: 960px)
+{
+    #banner-heading p{
+        font-size: 50pt;
+    }
+}
+
+@media(max-width: 376px)
+{
+    #banner-heading p{
+        font-size: 40pt;
+    }
+}
+
+#explore button{
+    color: #53274E;
+    border: none;
+    background: white;  
+    border-radius: 15px;
+    font-size: 15pt;
+    width: 110px;
+    box-shadow: 0px 0px 10px 2px #53274E;
+    cursor: pointer;
+    outline: none;
+}
+
+#explore button:hover{
+    color: white;
+    background: #53274E;  
+}
 /*-------------------
     Events
 -------------------*/
@@ -75,10 +124,9 @@ pre{
 
 #event-info-container{
     min-height: 300px;
-    padding: 10px;
-    
-
+    padding: 10px;    
 }
+
 .event-info{
     padding: 10px;
 }
@@ -211,6 +259,7 @@ pre{
     bottom: 0;
     position: absolute;
     width: 100%;
+    border-top: 0px !important;
 }
 
 #footnote

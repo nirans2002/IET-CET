@@ -10,6 +10,14 @@ export const competitions = [
 
 export const workshops = [
     {
+        title: 'React BootCamp',
+        img: 'workshops/reactbootcamp.jpeg',
+        quote: 'Reaching the interest of visitors is essential to make them want to stay on your site.Thus it is necessary to build efficient, flexible and interactive UIs.',
+        content: "WIT-IET on Campus CET brings you REACT BOOTCAMP , a 3 day learning series where you’ll be introduced to the basics of React, a Javascript library used in web development to build interactive elements on website.\n\nPrerequisites:\nBasic understanding of HTML, CSS and Javascript\nDon’t worry if you are unfamiliar with these. We’ll be providing resources for the same.\n\nDo join us for a fun and interactive session where you’ll be taught basics from the very scratch. You also get to work on projects with hands-on training. The timings of the event are as mentioned below.",
+        date: '14/11/2020, 15/11/2020, 16/11/2020',
+        time: '11:00 am - 1:00 pm, 11:00 am - 1:00 pm, 7:00 pm - 8:00 pm',
+    },
+    {
         title:'Workshop on Circuit Designing using KiCAD',
         img: 'workshops/kicad.jpeg', 
         content: 'Knowing how to use an EDA tool makes you wise, but do you have what it takes to be skilled?\n\nIET on campus CET presents to you a Circuit design competition based on KiCad, a free and open source software featuring an integrated environment for schematic capture and PCB layout design.\n\nNothing is more expensive than a missed opportunity', 
@@ -19,6 +27,14 @@ export const workshops = [
 ]
 
 export const seminars = [
+    {
+        title: 'Oppurtunities for Women in Tech',
+        img: 'seminars/oppurtunitieswomen.jpeg',
+        content: "In the words of Melinda Gates, girls who dream of careers in tech shouldn't have to rely on luck. Grabbing the chances that are available to you is that much easier when you know the direction to set your sights.\n\nThe Women In Tech wing of IET on Campus CET presents to you a session on Opportunities for Women in Tech by Ekta Mishra,  co-founder of Code for Cause and Outreachy'20 intern at OpenRefine.  The talk will cover scholarships and internships aimed at girls in the tech space to increase their visibility in the fields of technology.",
+        quote: 'Nothing is more expensive than a missed opportunity',
+        date: '21/11/2020, Saturday',
+        time: '7:00pm to 8:00pm'
+    },
     {
         title: 'GATEWay to New Beginnings', 
         img: 'seminars/GATE.jpg', 
