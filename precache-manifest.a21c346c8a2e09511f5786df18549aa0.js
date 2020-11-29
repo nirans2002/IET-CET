@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "63ace6eeef181889f799b1a4cb1e4fa1",
+    "revision": "5c237f7086682c79a053dae6b12a7b0d",
     "url": "/IET-CET/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/IET-CET/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "407a3dc3d1c163e972f1",
+    "revision": "7872e3c4423578075f88",
     "url": "/IET-CET/static/css/main.b5584d80.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/IET-CET/static/js/2.3e313508.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "407a3dc3d1c163e972f1",
-    "url": "/IET-CET/static/js/main.ecf26c45.chunk.js"
+    "revision": "7872e3c4423578075f88",
+    "url": "/IET-CET/static/js/main.849e3692.chunk.js"
   },
   {
     "revision": "5126e3d79192d64fc666",
