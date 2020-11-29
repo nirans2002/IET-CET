@@ -38,12 +38,12 @@ function Navigation(){
                 </NavbarToggler>
                 <Collapse isOpen={collapse} navbar>
                     <Nav className='ml-auto' navbar>
-                        <NavItem>
+                        <NavItem onClick={toggle}>
                             <NavLink>
                                 <Link to='/' className="navlink">Home</Link>
                             </NavLink>
                         </NavItem>
-                        <NavItem>
+                        <NavItem onClick={toggle}>
                             <NavLink>
                                 <Link to='/events' className="navlink">Events</Link>
                             </NavLink>
@@ -55,12 +55,12 @@ function Navigation(){
                             </NavLink>
                         </NavItem>
                         */}
-                        <NavItem>
+                        <NavItem onClick={toggle}>
                             <NavLink>
                                 <Link to='/team' className="navlink">The Team</Link>
                             </NavLink>
                         </NavItem>
-                        <NavItem>
+                        <NavItem onClick={toggle}>
                             <NavLink>
                                 <Link to='/aboutus' className="navlink">About Us</Link>
                             </NavLink>

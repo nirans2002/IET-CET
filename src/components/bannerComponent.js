@@ -9,7 +9,7 @@ function Banner(){
                 <div className="col" id="banner-heading">
                     <p>Welcome to IET On Campus CET</p>
                     <div id="explore">
-                        <button onClick={(e) => {e.preventDefault(); window.location.href='/events'}}>Explore!</button>
+                        <button onClick={(e) => {e.preventDefault(); window.location.href='/events';}}>Explore!</button>
                     </div>
                 </div>
             </div>
