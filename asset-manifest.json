@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/IET-CET/static/css/main.b5584d80.chunk.css",
+    "main.css": "/IET-CET/static/css/main.fcc8fb95.chunk.css",
     "main.js": "/IET-CET/static/js/main.8d22bb40.chunk.js",
     "main.js.map": "/IET-CET/static/js/main.8d22bb40.chunk.js.map",
     "runtime-main.js": "/IET-CET/static/js/runtime-main.141cb421.js",
@@ -9,10 +9,10 @@
     "static/js/2.3e313508.chunk.js": "/IET-CET/static/js/2.3e313508.chunk.js",
     "static/js/2.3e313508.chunk.js.map": "/IET-CET/static/js/2.3e313508.chunk.js.map",
     "index.html": "/IET-CET/index.html",
-    "precache-manifest.8e84561d3f89f9d738a5d802bc4af0b4.js": "/IET-CET/precache-manifest.8e84561d3f89f9d738a5d802bc4af0b4.js",
+    "precache-manifest.7afab0252bb30e7ee3e7dc2257789ab9.js": "/IET-CET/precache-manifest.7afab0252bb30e7ee3e7dc2257789ab9.js",
     "service-worker.js": "/IET-CET/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/IET-CET/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.b5584d80.chunk.css.map": "/IET-CET/static/css/main.b5584d80.chunk.css.map",
+    "static/css/main.fcc8fb95.chunk.css.map": "/IET-CET/static/css/main.fcc8fb95.chunk.css.map",
     "static/js/2.3e313508.chunk.js.LICENSE.txt": "/IET-CET/static/js/2.3e313508.chunk.js.LICENSE.txt",
     "static/media/AbrahamMathews.jpeg": "/IET-CET/static/media/AbrahamMathews.5166d5d4.jpeg",
     "static/media/Adarsh.jpg": "/IET-CET/static/media/Adarsh.d2f2e7fa.jpg",
@@ -52,7 +52,7 @@
     "static/js/runtime-main.141cb421.js",
     "static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.3e313508.chunk.js",
-    "static/css/main.b5584d80.chunk.css",
+    "static/css/main.fcc8fb95.chunk.css",
     "static/js/main.8d22bb40.chunk.js"
   ]
 }
