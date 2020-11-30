@@ -57,6 +57,8 @@ pre{
     width: 100%;
 }
 
+/*Mobile Version*/
+
 @media(max-width: 960px)
 {
     #banner-heading p{
