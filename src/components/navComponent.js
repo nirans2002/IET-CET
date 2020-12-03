@@ -9,25 +9,29 @@ import { Link } from 'react-router-dom';
 function Navigation(){
     const [collapse, setCollapse] = useState(false);
     const toggle = () => {
-        setCollapse(prevState => !prevState)
-        if(collapse === true)
+        if(window.screen.width <= 767)
         {
-            anime({
-                targets: '.down',
-                rotate: 0
-            });
-        }
-        else
-        {
-            anime({
-                targets: '.down',
-                rotate: 90
-            });
+            setCollapse(prevState => !prevState)
+            if(collapse === true)
+            {
+                anime({
+                    targets: '.down',
+                    rotate: 0
+                });
+            }
+            else
+            {
+                anime({
+                    targets: '.down',
+                    rotate: 90
+                });
+            }
         }
     }
     return(
         <div id='nav'>
-            <Navbar expand='md' color='light'>
+            <Navbar expand='md' color='light' fixed='top' className={collapse? 'expand-full' : ''}
+            >
                 <NavbarBrand>
                     <img src={logo} width='200px' alt='IET On Campus'/>
                 </NavbarBrand>
