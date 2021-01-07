@@ -10,6 +10,14 @@ export const competitions = [
 
 export const workshops = [
     {
+        title: 'Codigo Programming Workshop Series',
+        quote: 'Everybody should learn to program a computer, because it teaches you how to think" - Steve Jobs',
+        img: 'workshops/codigo.jpeg',
+        content: 'Coding is an exercise for your brain that eventually improves your problem solving and logical ability. It is now an unparalleled skill every engineer should be proficient in. Technology is vast and there are plenty of opportunities if you know how to code.\n\nIET On campus CET invites all freshers to join us for CODIGO - your entry to the world of programming. Simplicity is prerequisite for reliability and we aim to facilitate you to take the first step towards developing your coding abilities. The event spans 4 days with sessions covering the basics of C++ and Python programming.\n\nThe sessions are  exclusively held for CETians.\n\nInviting all the newbies out there!!\n\nFree Registration!!!',
+        time: ' 7:00pm to 8:30pm',
+        date: ' 02/01/2021, 03/01/2021, 09/01/2021, 10/01/2021'
+    },
+    {
         title: 'React BootCamp',
         img: 'workshops/reactbootcamp.jpeg',
         quote: 'Reaching the interest of visitors is essential to make them want to stay on your site.Thus it is necessary to build efficient, flexible and interactive UIs.',
