@@ -1,100 +1,100 @@
-export const members = [
+export const members20 = [
     {
         position: 'Chairperson',
         name: 'Devika S R',
-        img: 'DevikaSR.jpeg',
+        img: 'Photo_Execom_2020_2021/DevikaSR.jpeg',
     },
     {
         position: 'Vice Chairperson',
         name: 'Albin Biju',
-        img: 'Albin.jpg',
+        img: 'Photo_Execom_2020_2021/Albin.jpg',
     },
     {
         position: 'Secretary',
         name: 'Devika S Nair',
-        img: 'devikasn.jpg',
+        img: 'Photo_Execom_2020_2021/devikasn.jpg',
     },
     {
         position: 'Treasurer',
         name: 'Sagardas G Pai',
-        img: 'sagar.jpg',
+        img: 'Photo_Execom_2020_2021/sagar.jpg',
     },
     {
         position: 'Joint Secretary',
         name: 'Abraham Mathews',
-        img: 'AbrahamMathews.jpeg',
+        img: 'Photo_Execom_2020_2021/AbrahamMathews.jpeg',
     },
     {
         position: 'Technical Head',
         name: 'Adarsh Anil',
-        img: 'Adarsh.jpg',
+        img: 'Photo_Execom_2020_2021/Adarsh.jpg',
     },
     {
         position: 'Project Coordinator',
         name: 'Devanand M',
-        img: 'devan.jpeg',
+        img: 'Photo_Execom_2020_2021/devan.jpeg',
     },
     {
         position: 'Project Coordinator',
         name: 'Reuben Thomas Ebby',
-        img: 'Reuben.jpg',
+        img: 'Photo_Execom_2020_2021/Reuben.jpg',
     },
     {
         position: 'Event Coordinator',
         name: 'Thejas P Adithya',
-        img: 'thejas.jpg',
+        img: 'Photo_Execom_2020_2021/thejas.jpg',
     },
     {
         position: 'Joint Treasurer',
         name: 'Padmanabhan Rajesh Nair',
-        img: 'padmanabhan.jpg',
+        img: 'Photo_Execom_2020_2021/padmanabhan.jpg',
     },
     {
         position: 'Documentation Head',
         name: 'Amin Fathima Sadique',
-        img: 'Amin.jpg',
+        img: 'Photo_Execom_2020_2021/Amin.jpg',
     },
     {
         position: 'Webmaster',
         name: 'Sheen Xavier A',
-        img: 'Sheen.jpg',
+        img: 'Photo_Execom_2020_2021/Sheen.jpg',
     },
     {
         position: 'Membership Coordinator',
         name: 'Devi Krishna K R',
-        img: 'devik.jpg',
+        img: 'Photo_Execom_2020_2021/devik.jpg',
     },
     {
         position: 'Publicity Coordinator',
         name: 'Aswin M',
-        img: 'aswin.jpg',
+        img: 'Photo_Execom_2020_2021/aswin.jpg',
     },
     {
         position: 'Social Media Head',
         name: 'Manu Moncy',
-        img: 'Manu.jpg',
+        img: 'Photo_Execom_2020_2021/Manu.jpg',
     },
     {
         position: 'Social Media Head',
         name: 'Basil Saji',
-        img: 'BasilSaji.jpg',
+        img: 'Photo_Execom_2020_2021/BasilSaji.jpg',
     },
 ]
 
-export const witteam = [
+export const witteam20 = [
     {
         position: 'Chairperson',
         name: 'Atheena Renjith',
-        img: 'Atheena.jpg',
+        img: 'Photo_Execom_2020_2021/Atheena.jpg',
     },
     {
         position: 'Project Coordinator',
         name: 'Hari Sapna Nair',
-        img: 'Sapna.jpg',
+        img: 'Photo_Execom_2020_2021/Sapna.jpg',
     },
     {
         position: 'Event Coordinator',
         name: 'Surabhi S',
-        img: 'Surabhi.jpg',
+        img: 'Photo_Execom_2020_2021/Surabhi.jpg',
     }
 ]
