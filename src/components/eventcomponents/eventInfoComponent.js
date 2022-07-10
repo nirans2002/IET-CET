@@ -39,6 +39,10 @@ function EventInfo({event}){
                     <pre>{event.content}</pre>
                     {date}
                     {time}
+                    
+                    {/* <div>
+                        <button type="button"  target="_blank" className="btn btn-primary" href={event.reg_link} id="event-reg-button">Register</button>
+                    </div> */}
                 </div>
             </div>
         </div>
