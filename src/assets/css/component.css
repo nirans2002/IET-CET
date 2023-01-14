@@ -1,0 +1,299 @@
+/*-------------------
+    General Page 
+ -------------------*/
+#page-container{
+    min-height: 100vh;
+    max-width: 100vw !important;
+    overflow: hidden;
+    position: relative;
+}
+
+pre{
+    font-family: 'europa' ,Arial, Helvetica, sans-serif !important;
+    font-size: 16px !important;
+    white-space: pre-wrap;
+}
+#banner, #organisation, #team, #event, #project{
+    margin-top: 84px;
+    justify-content: center;
+    display: grid;
+    position: relative;
+}
+
+#page-content{
+    padding-bottom: 200px;
+}
+
+.row-header{
+    text-align: center;
+}
+.row-header p{
+    font-size: 35pt;
+}
+
+.container{
+    margin:10px 0px;
+}
+
+#menuCollapse{
+    outline: none;
+}
+
+
+
+.expand-full{
+    height: 100vh;
+    align-content: baseline !important;
+}
+
+.nav-item{
+    text-align: center;
+    padding: 10px 0;
+}
+
+/*-------------------
+    Banner
+-------------------*/
+#banner{
+    height: calc(100vh - 235px);
+    width: 100vw;
+    background: linear-gradient(to right, red, blue);
+    position: absolute;
+    align-content: center;
+}
+
+#banner-heading p{
+    color: white;
+    font-size: 100pt;
+}
+
+#banner-heading{
+    width: 100%;
+}
+
+/*Mobile Version*/
+
+@media(max-width: 960px)
+{
+    #banner-heading p{
+        font-size: 50pt;
+    }
+}
+
+@media(max-width: 376px)
+{
+    #banner-heading p{
+        font-size: 40pt;
+    }
+}
+
+#explore button{
+    color: #53274E;
+    border: none;
+    background: white;  
+    border-radius: 15px;
+    font-size: 15pt;
+    width: 110px;
+    box-shadow: 0px 0px 10px 2px #53274E;
+    cursor: pointer;
+    outline: none;
+}
+
+#explore button:hover{
+    color: white;
+    background: #53274E;  
+}
+/*-------------------
+    Events
+-------------------*/
+
+#event .container{
+    min-height: 100px;
+}
+
+#event-E{
+    background-image: url(../img/calendar.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#event-vent{
+    padding: 2px;
+}
+
+#event-heading{
+    padding: 10px 0px;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    display: grid;
+}
+
+#event-content{
+    padding: 30px 20px;
+    border: 1px transparent #53274E;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 7px lightgray;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+}
+
+#event-info-container{
+    min-height: 300px;
+    padding: 10px;    
+}
+
+.event-info{
+    padding: 10px;
+}
+
+#event-info-info{
+    padding: 10px 0;
+}
+
+#event-img-container{
+    justify-content: center;
+    display: grid;
+}
+
+#event-img-container img{
+    max-width: 300px;
+
+}
+
+#event-info-heading{
+    background-color: #53274E;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    padding-top: 5px;
+}
+
+#event-subheading
+{
+    text-align: center;
+}
+
+#event-info-section{
+    border: 2px #53274E;
+    padding: 15px 10px;
+    border-radius: 15px;
+    border-style: hidden hidden solid hidden;
+}
+
+#event-info-info{
+    padding: 20px;
+}
+
+#event-info-info svg{
+    vertical-align: baseline;
+}
+
+#moreWork, #moreSem, #moreComp{
+    border: none;
+    outline: none;
+    background-color: white;
+}
+
+#event-block{
+    padding-bottom: 20px;
+}
+
+/*-------------------
+    Projects
+-------------------*/
+
+@keyframes rotategear{
+    from{
+        rotate: 0deg;
+    }
+    to{
+        rotate: 360deg;
+    }
+}
+#gear{
+    animation: rotategear 2s linear infinite forwards alternate;
+}
+
+/*-------------------
+    The Team
+-------------------*/
+
+#crew{
+    padding: 50px;
+}
+
+#crew div img{
+    border-radius: 25px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+#crew div{
+    text-align: center;
+    padding: 5px;
+}
+
+/*-------------------
+    About Us
+-------------------*/
+#tabloid{
+    min-height: 100px;
+}
+
+#tabloid #heading{
+    color: white;
+    background-color: #A046B4;
+}
+
+
+/*-------------------
+    Footer Section
+-------------------*/
+
+.navlink{
+    color: #53274E !important;
+    text-decoration: inherit !important;
+}
+
+.down{
+    color: #53274E ;
+}
+
+.social
+{
+    padding: 10px;
+    color: #A046B4;
+}
+.social:hover{
+    color: white;
+}
+
+#footer{
+    background-color: #53274E ;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    border-top: 0px !important;
+}
+
+#footnote
+{
+    color: #A046B4;
+    height: 25pt;
+}
+
+#footnote:hover{
+    color:white;
+}
+
+
+
+.centered-tabs{
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+  outline: none !important;
+  border: none !important;
+}
