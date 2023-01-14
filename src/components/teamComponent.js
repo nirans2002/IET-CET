@@ -23,6 +23,14 @@ function Member({ profile }) {
 }
 
 function Team() {
+    // data for execom 2022 - 23
+    const memberList22 = members22.map((member) => (
+        <Member profile={member} />
+    ));
+    const witList22 = witteam22.map((member) => (
+        <Member profile={member} />
+    )); 
+
     // data for execom 2021 - 22
     const memberList21 = members21.map((member) => (
         <Member profile={member} />
@@ -30,6 +38,7 @@ function Team() {
     const witList21 = witteam21.map((member) => (
         <Member profile={member} />
     ));
+    
     // data for execom 2020 - 21
     const memberList20 = members20.map((member) => (
         <Member profile={member} />
@@ -56,7 +65,7 @@ function Team() {
                 </div>
 
                 <div >
-                    <Tabs className='centered-tabs' defaultActiveKey="execom_21">
+                    <Tabs className='centered-tabs' defaultActiveKey="execom_22">
                         <Tab eventKey="execom_20" title="Execom 2020-2021">
                             <div className="row align-items-center justify-content-center">
                                 {memberList20}
@@ -79,9 +88,21 @@ function Team() {
                                 {witList21}
                             </div>
                         </Tab>
-                        {/* <Tab eventKey="execom_22" title="Execom 2022-2023">
-                            
-                        </Tab> */}
+                        <Tab className='centered-tabs' eventKey="execom_22" title="Execom 2022-2023" >
+                            <div className="row align-items-center justify-content-center">
+                                {memberList22}
+                            </div>
+                            <div className="row align-items-center justify-content-center">
+                                <h2>Women In Technology</h2>
+                            </div>
+                            <div className="row align-items-center justify-content-center">
+                                {witList22}
+                            </div>
+                        </Tab>
+                        {/* to add new execom duplicate the above <Tab></Tab> block add update the data
+                            - also change the defaultActiveKey to the latest execom
+                            - also update the function with the data of new execom
+                        */}
                     </Tabs>
                 </div>
 
