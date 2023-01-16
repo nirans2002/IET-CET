@@ -1,7 +1,8 @@
 
 import '../assets/css/component.css';
-import { members21, witteam21 } from '../assets/js/team_2021';
 import { members20, witteam20 } from '../assets/js/team_2020';
+import { members21, witteam21 } from '../assets/js/team_2021';
+import { members22, witteam22 } from '../assets/js/team_2022';
 import Tabs from 'react-bootstrap/Tabs';
 import Tab from 'react-bootstrap/Tab';
 import React from 'react';
@@ -9,8 +10,13 @@ import React from 'react';
 function Member({ profile }) {
     return (
         <div className="col-md-4 col-lg-3 col-sm-8" id="crew">
-            <div className="row justify-content-center">
-                <img src={require(`../assets/img/team/${profile.img}`)} alt="eren-yeager" />
+            <div className="row justify-content-center" >
+                <img src={require(`../assets/img/team/${profile.img}`) } alt="eren-yeager" 
+                // style={{ width: 250, height: 200 }} 
+                // style={{ width: "100%", height: "100%"}}
+            
+
+                />
             </div>
             <div className="row">
                 <div className="col">

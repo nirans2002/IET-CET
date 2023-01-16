@@ -1,76 +1,100 @@
 export const members22 = [
-    {
-        position: 'Chairperson',
-        name: 'Amin Fathima Sadique',
-        img: 'Photo_Execom_2021_2022/Chair-Amin Fathima Sadique.jpg',
-    },
-    {
-        position: 'Vice Chairperson',
-        name: 'Thejus P Aditya',
-        img: 'Photo_Execom_2021_2022/Vice Chair-Thejus P Aditya.jpg',
-    },
-    {
-        position: 'Secretary',
-        name: 'Abhijit Narayan S',
-        img: 'Photo_Execom_2021_2022/Secretary-Abhijit Narayan S.webp',
-    },
-    {
-        position: 'Treasurer',
-        name: 'Advaith Uday',
-        img: 'Photo_Execom_2021_2022/Treasurer-Advaith Uday.jpg',
-    },
-    {
-        position: 'Joint Secretary',
-        name: 'Ashish Anton Abraham',
-        img: 'Photo_Execom_2021_2022/Joint Secretary-Ashish Anton Abraham.jpg',
-    },
-    {
-        position: 'Technical Head',
-        name: 'Sradha M',
-        img: 'Photo_Execom_2021_2022/Technical Head-Sradha M.jpeg',
-    },
-    {
-        position: 'Project Coordinator',
-        name: 'Sandra Kakkarayil Jayakumar',
-        img: 'Photo_Execom_2021_2022/Project Coordinator-Sandra Kakkarayil Jayakumar.jpeg',
-    }
-    
-]
+  {
+    position: "Chairperson",
+    name: "Nanda Radhakrishnan",
+    img: "Photo_Execom_2022_2023/Chairperson.jpg",
+  },
+  {
+    position: "Vice Chairperson",
+    name: "Ashish Anton Abraham",
+    img: "Photo_Execom_2022_2023/ViceChairperson.jpg",
+  },
+  {
+    position: "Secretary",
+    name: "Pranav Jayachandran",
+    img: "Photo_Execom_2022_2023/Secretary.jpg",
+  },
+  {
+    position: "Treasurer",
+    name: "Yadhu Krishna T",
+    img: "Photo_Execom_2022_2023/Treasurer.webp",
+  },
+  {
+    position: "Joint Secretary",
+    name: "Sriram M",
+    img: "Photo_Execom_2022_2023/JointSecretary.jpg",
+  },
+  {
+    position: "Technical head",
+    name: "P N Parameswaran",
+    img: "Photo_Execom_2022_2023/TechnicalHead1.jpg",
+  },
+  {
+    position: "Technical head",
+    name: "Anantha Krishnan",
+    img: "Photo_Execom_2022_2023/TechnicalHead2.jpg",
+  },
+  {
+    position: "Project Coordinator",
+    name: "Niran S Narayanan",
+    img: "Photo_Execom_2022_2023/ProjectCoordinator1.jpeg",
+  },
+  {
+    position: "Project Coordinator",
+    name: "Pranav M",
+    img: "Photo_Execom_2022_2023/ProjectCoordinator2.jpg",
+  },
+  {
+    position: "Event Coordinator",
+    name: "Swetha Theresa George",
+    img: "Photo_Execom_2022_2023/EventCoordinator.jpeg",
+  },
+  {
+    position: "Joint Treasurer",
+    name: "Javeed Ahmed",
+    img: "Photo_Execom_2022_2023/JointTreasurer.jpg",
+  },
+  {
+    position: "Documentation Head",
+    name: "Surya Narayan",
+    img: "Photo_Execom_2022_2023/DocumentationHead.jpg",
+  },
+  {
+    position: "Webmaster",
+    name: "Jaidan Sleeba",
+    img: "Photo_Execom_2022_2023/Webmaster.jpg",
+  },
+  {
+    position: "Membership Coordinator",
+    name: "Gautam Menon",
+    img: "Photo_Execom_2022_2023/Membership.jpg",
+  },
+  {
+    position: "Publicity Coordinator",
+    name: "Karun Thomas Chacko",
+    img: "Photo_Execom_2022_2023/Publicity.jpg",
+  },
+  {
+    position: "Social Media Head",
+    name: "Muhammed Sinan M",
+    img: "Photo_Execom_2022_2023/SocialMedia.jpg",
+  },
+];
 
 export const witteam22 = [
-    {
-        position: 'Chairperson',
-        name: 'Amin Fathima Sadique',
-        img: 'Photo_Execom_2021_2022/Chair-Amin Fathima Sadique.jpg',
-    },
-    {
-        position: 'Vice Chairperson',
-        name: 'Thejus P Aditya',
-        img: 'Photo_Execom_2021_2022/Vice Chair-Thejus P Aditya.jpg',
-    },
-    {
-        position: 'Secretary',
-        name: 'Abhijit Narayan S',
-        img: 'Photo_Execom_2021_2022/Secretary-Abhijit Narayan S.webp',
-    },
-    {
-        position: 'Treasurer',
-        name: 'Advaith Uday',
-        img: 'Photo_Execom_2021_2022/Treasurer-Advaith Uday.jpg',
-    },
-    {
-        position: 'Joint Secretary',
-        name: 'Ashish Anton Abraham',
-        img: 'Photo_Execom_2021_2022/Joint Secretary-Ashish Anton Abraham.jpg',
-    },
-    {
-        position: 'Technical Head',
-        name: 'Sradha M',
-        img: 'Photo_Execom_2021_2022/Technical Head-Sradha M.jpeg',
-    },
-    {
-        position: 'Project Coordinator',
-        name: 'Sandra Kakkarayil Jayakumar',
-        img: 'Photo_Execom_2021_2022/Project Coordinator-Sandra Kakkarayil Jayakumar.jpeg',
-    }
-]
+  {
+    position: "WIT Chairperson",
+    name: "M Lekshmi Nair",
+    img: "Photo_Execom_2022_2023/WitChair.jpg",
+  },
+  {
+    position: "WIT Project Coordinator",
+    name: "Ananya A Sathish",
+    img: "Photo_Execom_2022_2023/WitProject.jpg",
+  },
+  {
+    position: "WIT Event Coordinator",
+    name: "Mishal Peter",
+    img: "Photo_Execom_2022_2023/WitEvent.jpg",
+  },
+];
